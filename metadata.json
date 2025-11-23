@@ -1,0 +1,5 @@
+{
+  "name": "CartPole RL Demo",
+  "description": "A physics-based simulation of the classic Cart-Pole reinforcement learning problem. Balance the pole by moving the cart left or right using strict bang-bang control dynamics.",
+  "requestFramePermissions": []
+}

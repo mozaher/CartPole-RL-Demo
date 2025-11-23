@@ -4,12 +4,12 @@ export const DEFAULT_CONFIG: SimulationConfig = {
   gravity: 9.8,
   cartMass: 1.0,
   poleMass: 0.1,
-  poleLength: 1.0, // Increased length (slower rotation)
+  poleLength: 1.5, // Increased length significantly for slower dynamics
   forceMag: 10.0,
-  tau: 0.015, // Reduced time step (slow motion relative to 60fps)
-  maxSteps: 1000, // Longer episodes
+  tau: 0.008, // Significantly reduced time step for slow-motion effect
+  maxSteps: 1000, 
   xThreshold: 2.4,
-  thetaThresholdDegrees: 24, // Wider angle tolerance
+  thetaThresholdDegrees: 24, 
 };
 
 // Visualization Scale

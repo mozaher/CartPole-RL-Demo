@@ -118,9 +118,9 @@ const ConfigPanel: React.FC<ConfigPanelProps> = ({ config, onChange, disabled })
           <div className="flex items-center gap-3">
             <input
               type="range"
-              min="0.01"
+              min="0.005"
               max="0.05"
-              step="0.005"
+              step="0.001"
               value={config.tau}
               disabled={disabled}
               onChange={(e) => handleChange('tau', parseFloat(e.target.value))}
